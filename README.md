@@ -1,8 +1,8 @@
 # Movie Recommandation
 
-Dataset :: [MovieLens Latest Datasets](https://grouplens.org/datasets/movielens/ "MovieLens Latest Datasets")
-Tools :: Tensorflow, Numpy, Pandas, Keras
-Method :: Collaborative filtering  
+Dataset :: [MovieLens Latest Datasets](https://grouplens.org/datasets/movielens/ "MovieLens Latest Datasets") \
+Tools :: Tensorflow, Numpy, Pandas, Keras \
+Method :: Collaborative filtering \
 
 * Dataset :: 
   * This dataset was collected and prepared by the GroupLens Reasearch.
@@ -15,7 +15,7 @@ Method :: Collaborative filtering
   * Is your customer like this movie?
   
   
-##### Steps (What we did)
+### Steps (What we did) ::
   1. Load our csv file with the help of pandas and see some information.
   
   2. Standardisation of rating so our gradient descent steps will be fast.
