@@ -17,7 +17,9 @@ Method :: Collaborative filtering
   
 ##### Steps (What we did)
   1. Load our csv file with the help of pandas and see some information.
+  
   2. Standardisation of rating so our gradient descent steps will be fast.
+  
   3. We create our dataset :: \
     X = Movie Feature (20 features, initially random) \
     W = User Prefrence Feature(20 corresponding features, initially random) \
@@ -26,7 +28,10 @@ Method :: Collaborative filtering
     
     In this dataset X and W are corresponding learnable parameters.
     
+    
   4. Dataset loader creation with the help of tensorflow data api.
+  
+  
   5. Train our parameters with 10000 iterations: To learn best parameters which can predict our available rating prefect.
     
     Predicted_y = X @ tf.transpose(W) 
@@ -35,7 +40,10 @@ Method :: Collaborative filtering
     
     Update X and W with SGD.
   
+  
   6. Now we have our movie features and user features.
+  
+  
   7. We will compare our model predicted rating and default rating for initial 100 movies and 20 users. 
  
 
