@@ -2,7 +2,7 @@
 
 Dataset :: [MovieLens Latest Datasets](https://grouplens.org/datasets/movielens/ "MovieLens Latest Datasets") \
 Tools :: Tensorflow, Numpy, Pandas, Keras \
-Method :: Collaborative filtering \
+Method :: Collaborative filtering 
 
 * Dataset :: 
   * This dataset was collected and prepared by the GroupLens Reasearch.
